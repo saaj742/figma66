@@ -1,0 +1,182 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* allcommon css end */
+/* common css start */
+#headerpart{
+    padding: 25px;
+   
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    color: black;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    margin-left: 20px; 
+}
+.iconspart{
+    display: inline-block;
+    font-size: 16px;
+
+    padding-top: 15px;
+}
+#bannerpart{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 117px;
+    padding-top: 157px;
+}
+.bannertext{
+    width: 50%;
+    background: #FFF3E3;
+    margin-left: auto;
+    padding-left:40px;
+    padding-top: 65px;
+    border-radius: 10px;  
+}
+.bannertext h4{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: #333333;
+}
+.bannertext h1{
+    font-family: "Poppins", serif;
+    font-size: 64px;
+    font-weight: 600px;
+    letter-spacing: 3px;
+    color: #F8b864;
+}
+.bannertext p{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color:#333333;
+    margin-bottom: 30px;   
+}
+.bannertext a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    background: #B88E2F;
+    padding: 25px 73px;
+    margin-bottom: 57px;
+}
+.browseflex{
+    display: flex;
+    justify-content: space-between;
+}
+.browse1{
+    width: 32%;
+    text-align: center;
+
+}
+.browse1 img{
+    width: 100%;
+}
+.browse1 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:"Poppins", serif; 
+}
+.browsetext h1{
+    text-align: center;
+}
+.browsetext p{
+    text-align: center;  
+}
+#productpart{
+    
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+
+
+
+#productpart{
+    
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.producthead {
+    text-align: center;
+}
+
+.productitempart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.productitem{
+    width: 23%;
+    position: relative;
+}
+.productitem img{
+    width: 100%;
+    display: block;
+}
+.producttext{
+    background: #F4F5F7;
+    padding: 20px 15px;
+}
+.badge{
+    
+}
+.producttext p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    padding: 10px 0;
+
+}
+.producttext h4{
+    font-size: 24px;
+    font-weight: 600;
+    
+   
+}
+.producttext span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    padding-left: 20px;
+
+}
+.productoverly{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.74);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
